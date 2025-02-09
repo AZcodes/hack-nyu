@@ -83,3 +83,13 @@ h2{
   padding: 40px 80px;
   box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
 }
+
+.image-button img {
+  width: 200px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.image-button img:hover {
+  opacity: 0.8;
+}
+
