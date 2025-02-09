@@ -15,9 +15,10 @@ nav{
   transition: all 0.4s ease;
 }
 nav.sticky{
-  padding: 15px 20px;
-  background: #4070f4;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border:5px solid black;
+  background: #f70909;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
 nav .nav-content{
   height: 100%;
@@ -68,6 +69,9 @@ nav.sticky .logo a{
   background-position: center;
   background-attachment: fixed;
   font-family: 'Ubuntu', sans-serif;
+}
+.home h1 {
+    font-size: 3em;
 }
 h2{
   font-size: 30px;
