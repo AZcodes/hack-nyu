@@ -31,7 +31,7 @@ nav .nav-content{
 nav .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: #4070f4;
+  color: #e62e0a;
 }
 nav.sticky .logo a{
   color: #fff;
@@ -52,7 +52,7 @@ nav.sticky .logo a{
   transition: all 0.3s ease;
 }
  .nav-links li a:hover{
-   color: #4070f4;
+   color: #f70909;
  }
  nav.sticky .nav-links li a{
    color: #fff;
