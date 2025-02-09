@@ -73,7 +73,7 @@ nav.sticky .logo a{
 .home h1 {
     font-size: 3em;
 }
-h2{
+h2{ 
   font-size: 30px;
   margin-bottom: 6px;
   color: #4070f4;
@@ -92,4 +92,31 @@ h2{
 .image-button img:hover {
   opacity: 0.8;
 }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body.page2 h1 {
+  color: #5bc0de; /* A different color for page 2 */
+  font-size: 40px;
+}
 
+body.page2 p {
+  font-size: 20px;
+  color: #f0ad4e; /* A yellow color for page 2 content */
+}
+
+/* Button Styling */
+button {
+  background-color: #f0ad4e;
+  color: white;
+  font-size: 18px;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ec971f;
+}
