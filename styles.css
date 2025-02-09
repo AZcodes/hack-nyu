@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
   *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: 'Glegoo', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 nav{
   position: fixed;
@@ -12,14 +12,12 @@ nav{
   left: 0;
   width: 100%;
   padding: 20px;
-  background : #f70909;
-  transition: all 0.5 ease;
+  transition: all 0.4s ease;
 }
 nav.sticky{
-  padding: 20px 20px;
-  border:5px solid black;
-  background: #f70909;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  background: #4070f4;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 nav .nav-content{
   height: 100%;
@@ -32,10 +30,10 @@ nav .nav-content{
 nav .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: #f0e507;
+  color: #4070f4;
 }
 nav.sticky .logo a{
-  color: #f0e507;
+  color: #fff;
 }
 .nav-content .nav-links{
   display: flex;
@@ -46,14 +44,14 @@ nav.sticky .logo a{
 }
  .nav-links li a{
   text-decoration: none;
-  color: #fff;
+  color: #0E2431;
   font-size: 18px;
   font-weight: 500;
   padding: 10px 4px;
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
  .nav-links li a:hover{
-   color: #ef3506;
+   color: #4070f4;
  }
  nav.sticky .nav-links li a{
    color: #fff;
@@ -74,10 +72,10 @@ nav.sticky .logo a{
 h2{
   font-size: 30px;
   margin-bottom: 6px;
-  color: #f12703;
+  color: #4070f4;
 }
 .text{
   text-align: justify;
   padding: 40px 80px;
-  /* box-shadow: -5px 0 10 */
+  box-shadow: -5px 0 10px rgba(0, 0, 0, 0.1);
 }
