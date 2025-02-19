@@ -1,7 +1,31 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <title>Khao | South Asian Health</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">
+                <a href="#">Khao |</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#About Us">About Us</a></li>
+                <li><a href="#">Top Dishes</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="home"></section>
+
+    <section id="About Us">
+        <h2>About Us</h2>
+        <p>Welcome to Khao, a platform for South Asians, intending to educate and replace pre-existing unhealthy nutritional norms with healthy alternatives.</p>
+        <p>At Khao, we understand the immense value that South Asian food adds into the South Asian culture. It may just be the largest contributor to South Asian culture.</p>
+        <p>Unfortunately, it may also be the leading cause of the plethora of diseases that South Asians know too well; to name a few: Type 2 Diabetes, which can be blamed on the heavy consumption of roti and white rice, High Blood Pressure, the culprit being heavy salt dosages in all foods.</p>
      <title> Khao | South Asian Health </title> 
     <link rel="stylesheet" href="styles.css" rel = "">
    </head>
@@ -32,44 +56,22 @@
   </nav>
   <section class="home"> 
     </section>
-  <section id = "About Us"></section> 
-  <section class="About Us"></section>
-  <div class="text">
-<i class="uil uil-search search-icon" id="searchIcon"></i>
-    <div class="search-box">
-      <i class="uil uil-search search-icon"></i>
-      <input type="text" placeholder="Search here..." />
-    <p><h2>About Us</h2>
-    <p>Welcome to Khao, a platform for South Asians, intending to educate and replace pre-existing unhealthy nutritional norms with healthy alternatives
-        At Khao, we understand the immense value that South Asian food adds into the South Asian culture. It may just be the largest contributor to South Asian culture. 
-        Unfortunately, it may also be the leading cause of the plethora of diseases that South Asians know too well; to name a few: Type 2 Diabetes, which can be blamed on the 
-        heavy consumption of roti and white rice, High Blood Pressure, the culprit being heavy salt dosages in all foods.</p>  </div>
-  <script>
-  let nav = document.querySelector("nav");
-    window.onscroll = function() {
-      if(document.documentElement.scrollTop > 20){
-        nav.classList.add("sticky");
-      }else {
-        nav.classList.remove("sticky");
-      }
-    }
-  </script>
 
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Enter a dish name...">
+        <button id="searchBtn">Search</button>
+    </div>
 
-<a href="dish1.html" class="image-button">
-  <img src="images/butter_chicken_img.png" alt="BC Button">
-</a>
+    <div id="results"></div>
 
-<a href="dish2.html" class="image-button">
-<img src="images/biryani_img.png" alt="biryani Button">
-</a>
+    <a href="dish1.html"><button>Butter Chicken</button></a>
+    <a href="dish2.html"><button>Kabuli Pulao</button></a>
+    <a href="dish3.html"><button>Biryani</button></a>  
 
-<a href="dish3.html" class="image-button">
-<img src="images/kabuli_img.png" alt="kabuli pulao Button">
-</a>
+    <script src="./index.js"></script>
+
 </body>
 </html>
-
 
 
 
